@@ -32,3 +32,8 @@ D:
    sudo apt-get install python3-tk
    ...
    ```
+   
+4. Then, PSeger-LabelMe will be shown.
+
+![image](https://user-images.githubusercontent.com/39789261/182819435-0e180bfd-1530-45de-adb9-758336da9e81.png)
+
