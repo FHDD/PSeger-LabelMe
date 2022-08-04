@@ -146,7 +146,7 @@ def label_out_btn(w,h,co_x,co_y):
     label_btn.grid_propagate(False)
     return label_btn
 label_confirm=label_out_btn(100,50,256*3+60-50,16*3+560)
-clickBtn=tkinter.Button(label_confirm,text='确 认',command=getListBoxValue,font=('microsoft yahei', 14),relief='flat',cursor='hand2')
+clickBtn=tkinter.Button(label_confirm,text='Confirm',command=getListBoxValue,font=('microsoft yahei', 14),relief='flat',cursor='hand2')
 clickBtn.grid(row=0, column=0, sticky='nesw')
 
 '''设计列表框排序功能的button'''
@@ -164,7 +164,7 @@ def has_anno_ord():
     ord_status=2
     show_listbox(ord_status)
     print('ok')
-label_has_anno=label_out_btn(50,25,256*3, 48-24)
+label_has_anno=label_out_btn(80,25,256*3, 48-24)
 clickBtn_has_anno=tkinter.Button(label_has_anno,text='annotated',command=has_anno_ord,font=('microsoft yahei', 10),relief='flat')
 clickBtn_has_anno.grid(row=0, column=0, sticky='nesw')
 
@@ -173,7 +173,7 @@ def random_ord():
     ord_status=3
     show_listbox(ord_status)
     print('ok')
-label_random=label_out_btn(50,25,256*3+50, 48-24)
+label_random=label_out_btn(80,25,256*3+80, 48-24)
 clickBtn_random=tkinter.Button(label_random,text='random',command=random_ord,font=('microsoft yahei', 10),relief='flat')
 clickBtn_random.grid(row=0, column=0, sticky='nesw')
 
@@ -182,7 +182,7 @@ def origin_ord():
     ord_status=4
     show_listbox(ord_status)
     print('ok')
-label_origin=label_out_btn(50,25,256*3+50*2, 48-24)
+label_origin=label_out_btn(50,25,256*3+80*2, 48-24)
 clickBtn_origin=tkinter.Button(label_origin,text='initial',command=origin_ord,font=('microsoft yahei', 10),relief='flat')
 clickBtn_origin.grid(row=0, column=0, sticky='nesw')
 
