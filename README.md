@@ -35,7 +35,7 @@ D:
    
 4. Then, PSeger-LabelMe will be shown.
 
-![image](https://user-images.githubusercontent.com/39789261/182821996-1ee414d1-0cf1-4015-9a8a-dbcddf0704ae.png)
+![image](https://user-images.githubusercontent.com/39789261/182822136-0d4ad594-bf46-47e1-b098-429c56246247.png)
 
 
 
