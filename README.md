@@ -10,19 +10,19 @@
 <br /> ctrl+z：Unmake
 <br /> ↑：Randomly generate 10 positive boxes，and CSV file is synchronized.
 <br /> ↓：Randomly generate 10 negtive boxes，and CSV file is synchronized.
-<br /> Left mouse button：label as positive or reverse the label (When clicking the unlabeled position, "label as positive" is performed. When clicking the labeled position, the positive label will be reversed into a negtive label.)
+<br /> Left mouse button：label as positive or reverse the label (While clicking the unlabeled position, "label as positive" is performed. While clicking the labeled position, the positive label will be reversed into a negtive label.)
 <br /> Right mouse button：label as negtive
 <br /> Middle mouse button：change the label
 <br />          (1) Click inside the labeled box. This labeled box and its corresponding annotation in CSV file will be removed.
  <br />         (2) After executing step (1)，click an unlabeled box (target box). Click on the left side of the center line of the non marking box, the label will be positive. Click on the right side of the center line of the non marking box, it will be negtive.
 
-【关于程序中的宏定义】
-<br /> NUM：设置每张图能标注最多NUM个框
-<br /> img_num：设置打开软件时，从文件列表中第img_num张图开始显示（文件列表非文件夹，对文件夹进行了随机化处理，random.seed(0)）
-<br /> grid_or_not：是否设置框线（1为画框线，0为不画框线）
+【Macro definitions in the program】
+<br /> NUM：Set the maximum number of boxes that can be marked on each image.
+<br /> img_num：The No. img_num image will be shown first while opening the software.
+<br /> grid_or_not：set grids or not（1 means set，0 means unset.）
 
-【控件】
-<br /> 标注框列表：选中列表某一行，点击按钮‘确定’，
+【components】
+<br /> Image list：Select one image and click "Confirm". That image will be shown for your annotating.
 
 
 # Install
