@@ -5,14 +5,14 @@
 
 # Usage
 【Hotkey instructions】
-<br /> a：Last page
-<br /> d：Next page
-<br /> ctrl+z：Unmake
-<br /> ↑：Randomly generate 10 positive boxes，and CSV file is synchronized.
-<br /> ↓：Randomly generate 10 negtive boxes，and CSV file is synchronized.
-<br /> 鼠标左键：阳性标注 及 标注反转（点击未表框的位置，进行阳性标注；点击已标框的位置，进行标注反转）
-<br /> 鼠标右键：阴性标注
-<br /> 鼠标中键：修改标注
+ <br /> a：Last page
+ <br /> d：Next page
+ <br /> ctrl+z：Unmake
+ <br /> ↑：Randomly generate 10 positive boxes，and CSV file is synchronized.
+ <br /> ↓：Randomly generate 10 negtive boxes，and CSV file is synchronized.
+<br /> Left mouse button：label as positive or reverse the label (When clicking the unlabeled position, "label as positive" is performed. When clicking the labeled position, the positive label will be reversed into negtive label.)
+<br /> Right mouse button：label as negtive
+<br /> Middle mouse button：change the label
 <br />          (1) 点击标注框内部，去除该标注框及其csv标注
  <br />         (2) 执行(1)后，随即点击非标注框（作为修改后的标注框）；在非标注框中线左侧点击，为阳性；在非标注框中线右侧点击，为阴性
 
