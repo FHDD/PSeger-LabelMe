@@ -5,16 +5,16 @@
 
 # Usage
 【Hotkey instructions】
- <br /> a：Last page
- <br /> d：Next page
- <br /> ctrl+z：Unmake
- <br /> ↑：Randomly generate 10 positive boxes，and CSV file is synchronized.
- <br /> ↓：Randomly generate 10 negtive boxes，and CSV file is synchronized.
-<br /> Left mouse button：label as positive or reverse the label (When clicking the unlabeled position, "label as positive" is performed. When clicking the labeled position, the positive label will be reversed into negtive label.)
+<br /> a：Last page
+<br /> d：Next page
+<br /> ctrl+z：Unmake
+<br /> ↑：Randomly generate 10 positive boxes，and CSV file is synchronized.
+<br /> ↓：Randomly generate 10 negtive boxes，and CSV file is synchronized.
+<br /> Left mouse button：label as positive or reverse the label (When clicking the unlabeled position, "label as positive" is performed. When clicking the labeled position, the positive label will be reversed into a negtive label.)
 <br /> Right mouse button：label as negtive
 <br /> Middle mouse button：change the label
-<br />          (1) 点击标注框内部，去除该标注框及其csv标注
- <br />         (2) 执行(1)后，随即点击非标注框（作为修改后的标注框）；在非标注框中线左侧点击，为阳性；在非标注框中线右侧点击，为阴性
+<br />          (1) Click inside the labeled box. This labeled box and its corresponding annotation in CSV file will be removed.
+ <br />         (2) After executing step (1)，click an unlabeled box (target box). Click on the left side of the center line of the non marking box, the label will be positive. Click on the right side of the center line of the non marking box, it will be negtive.
 
 【关于程序中的宏定义】
 <br /> NUM：设置每张图能标注最多NUM个框
