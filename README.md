@@ -12,16 +12,6 @@ git clone https://github.com/FHDD/PSeger-LabelMe.git
 
 2. Put the downloading folder on disk D (or E, F). The folder structure is:
 ```bash
-D:
-  \PSeger-LabelMe
-      invasegtool_selfpoints.py
-      \img
-          HEIHC#11_25_10.png
-          HEIHC#11_25_11.png
-          ...
-```
-
-```bash
 D:\
 └── PSeger-LabelMe\
     └── invasegtool_selfpoints.py
@@ -59,8 +49,8 @@ D:\
 <br /> &emsp;**ctrl+z**：&emsp;&emsp;Unmake
 <br /> &emsp;**↑**：&emsp;&emsp;&emsp;&emsp;Randomly generate 10 positive boxes，and CSV file is synchronized.
 <br /> &emsp;**↓**：&emsp;&emsp;&emsp;&emsp;Randomly generate 10 negtive boxes，and CSV file is synchronized.
-<br /> &emsp;**Left mouse button**：&emsp;&emsp;label as positive or reverse the label. <br /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;While clicking the unlabeled position, "label as positive" is performed. <br /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;While clicking the labeled position, the positive label will be reversed into a negtive label.
-<br /> &emsp;**Right mouse button**：&emsp;&nbsp;label as negtive or reverse the label. The details are the same as "Left mouse button".
+<br /> &emsp;**Left mouse button**：&emsp;&emsp;Label as positive or reverse the label. <br /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;While clicking the unlabeled position, "label as positive" is performed. <br /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;While clicking the labeled position, the positive label will be reversed into a negtive label.
+<br /> &emsp;**Right mouse button**：&emsp;&nbsp;Label as negtive or reverse the label. The details are the same as "Left mouse button".
 <br /> &emsp;**Middle mouse button**：&ensp;Change the label.
 <br />          &emsp;&emsp;(1) Click inside the labeled box. This labeled box and its corresponding annotation in CSV file will be removed.
  <br />         &emsp;&emsp;(2) After executing step (1)，click an unlabeled box (target box). Click on the left side of the center line of the non marking box, the label will be positive. Click on the right side of the center line of the non marking box, it will be negtive.
