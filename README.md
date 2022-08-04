@@ -44,14 +44,14 @@ D:
 
 # Usage
 ## Hotkey instructions
-<br /> &emsp;**a**：Last page
-<br /> &emsp;**d**：Next page
-<br /> &emsp;**ctrl+z**：Unmake
-<br /> &emsp;**↑**：Randomly generate 10 positive boxes，and CSV file is synchronized.
-<br /> &emsp;**↓**：Randomly generate 10 negtive boxes，and CSV file is synchronized.
-<br /> &emsp;**Left mouse button**：label as positive or reverse the label (While clicking the unlabeled position, "label as positive" is performed. While clicking the labeled position, the positive label will be reversed into a negtive label.)
-<br /> &emsp;**Right mouse button**：label as negtive
-<br /> &emsp;**Middle mouse button**：change the label
+<br /> &emsp;**a**：&emsp;&emsp;&emsp;&emsp;Last page
+<br /> &emsp;**d**：&emsp;&emsp;&emsp;&emsp;Next page
+<br /> &emsp;**ctrl+z**：&emsp;&emsp;Unmake
+<br /> &emsp;**↑**：&emsp;&emsp;&emsp;&emsp;Randomly generate 10 positive boxes，and CSV file is synchronized.
+<br /> &emsp;**↓**：&emsp;&emsp;&emsp;&emsp;Randomly generate 10 negtive boxes，and CSV file is synchronized.
+<br /> &emsp;**Left mouse button**：&emsp;&emsp;label as positive or reverse the label (While clicking the unlabeled position, "label as positive" is performed. While clicking the labeled position, the positive label will be reversed into a negtive label.)
+<br /> &emsp;**Right mouse button**：&emsp;&emsp;label as negtive
+<br /> &emsp;**Middle mouse button**：&emsp;&emsp;change the label
 <br />          &emsp;&emsp;(1) Click inside the labeled box. This labeled box and its corresponding annotation in CSV file will be removed.
  <br />         &emsp;&emsp;(2) After executing step (1)，click an unlabeled box (target box). Click on the left side of the center line of the non marking box, the label will be positive. Click on the right side of the center line of the non marking box, it will be negtive.
 
