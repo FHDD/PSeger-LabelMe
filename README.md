@@ -36,7 +36,7 @@ D:\
    pip install os
    ...
    ```
-   Noted that Python 3.X it self has Tkinter module, so we do not need to install it any more.
+   Besides, Python 3.X it self has Tkinter module, so we do not need to install it any more.
    
 4. Then, PSeger-LabelMe will be shown.
 
