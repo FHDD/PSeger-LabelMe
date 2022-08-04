@@ -63,3 +63,5 @@ D:\
 ## Components
 <br /> &emsp;**Image list**：Select one image and click "Confirm". That image will be shown for your annotating.
 
+# Citation
+Updating.
