@@ -55,11 +55,11 @@ D:
 <br />          &emsp;&emsp;(1) Click inside the labeled box. This labeled box and its corresponding annotation in CSV file will be removed.
  <br />         &emsp;&emsp;(2) After executing step (1)，click an unlabeled box (target box). Click on the left side of the center line of the non marking box, the label will be positive. Click on the right side of the center line of the non marking box, it will be negtive.
 
-【Macro definitions in the program】
+## Macro definitions in the program
 <br /> &emsp;**NUM**：Set the maximum number of boxes that can be marked on each image.
 <br /> &emsp;**img_num**：The No. img_num image will be shown first while opening the software.
 <br /> &emsp;**grid_or_not**：set grids or not（1 means set，0 means unset.）
 
-【components】
+## components
 <br /> &emsp;**Image list**：Select one image and click "Confirm". That image will be shown for your annotating.
 
