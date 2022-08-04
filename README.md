@@ -21,6 +21,16 @@ D:
           ...
 ```
 
+```bash
+D:\
+└── PSeger-LabelMe\
+    └── invasegtool_selfpoints.py
+    └── img/
+        ├── HEIHC#11_25_10.png
+        ├── HEIHC#11_25_11.png
+        └── ...
+```
+
 3. Run ```invasegtool_selfpoints.py``` in Python environment. Pycharm is recommended.
 
    Noted that some python pakages is required, such as tkinter, glob, numpy. You can install them by using the command:
@@ -51,7 +61,7 @@ D:
 <br /> &emsp;**↓**：&emsp;&emsp;&emsp;&emsp;Randomly generate 10 negtive boxes，and CSV file is synchronized.
 <br /> &emsp;**Left mouse button**：&emsp;&emsp;label as positive or reverse the label. <br /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;While clicking the unlabeled position, "label as positive" is performed. <br /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;While clicking the labeled position, the positive label will be reversed into a negtive label.
 <br /> &emsp;**Right mouse button**：&emsp;&nbsp;label as negtive or reverse the label. The details are the same as "Left mouse button".
-<br /> &emsp;**Middle mouse button**：&ensp;change the label
+<br /> &emsp;**Middle mouse button**：&ensp;Change the label.
 <br />          &emsp;&emsp;(1) Click inside the labeled box. This labeled box and its corresponding annotation in CSV file will be removed.
  <br />         &emsp;&emsp;(2) After executing step (1)，click an unlabeled box (target box). Click on the left side of the center line of the non marking box, the label will be positive. Click on the right side of the center line of the non marking box, it will be negtive.
 
@@ -60,6 +70,6 @@ D:
 <br /> &emsp;**img_num**：The No. img_num image will be shown first while opening the software.
 <br /> &emsp;**grid_or_not**：set grids or not（1 means set，0 means unset.）
 
-## components
+## Components
 <br /> &emsp;**Image list**：Select one image and click "Confirm". That image will be shown for your annotating.
 
