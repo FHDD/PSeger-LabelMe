@@ -63,5 +63,8 @@ D:\
 ## Components
 <br /> &emsp;**Image list**：Select one image and click "Confirm". That image will be shown for your annotating.
 
+# Video presentation
+Click [here](https://cloud.tsinghua.edu.cn/f/64c8544971f4413e8d17/) for the video presentation.
+
 # Citation
 Updating.
