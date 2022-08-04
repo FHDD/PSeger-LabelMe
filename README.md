@@ -4,12 +4,12 @@
 <br /> Date：20220202
 
 # Usage
-【快捷键使用说明】
-<br /> a：左翻页
-<br /> d：右翻页
-<br /> ctrl+z：撤销（在标注过程中使用，应避免撤销第一个框）
-<br /> ↑：随机生成10个阳性框，且同步csv文件
-<br /> ↓：随机生成10个阴性框，且同步csv文件
+【Hotkey instructions】
+<br /> a：Last page
+<br /> d：Next page
+<br /> ctrl+z：Unmake
+<br /> ↑：Randomly generate 10 positive boxes，and CSV file is synchronized.
+<br /> ↓：Randomly generate 10 negtive boxes，and CSV file is synchronized.
 <br /> 鼠标左键：阳性标注 及 标注反转（点击未表框的位置，进行阳性标注；点击已标框的位置，进行标注反转）
 <br /> 鼠标右键：阴性标注
 <br /> 鼠标中键：修改标注
