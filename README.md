@@ -18,4 +18,17 @@ D:
           ...
 ```
 
+3. Run ```invasegtool_selfpoints.py``` in Python environment. Pycharm is recommended.
 
+   Noted that some python pakages is required, such as tkinter, glob, numpy. You can install them by using the command:
+   ```bash
+   pip install -r requirements.txt
+   ```
+   
+   or install each package respectively, like:
+   ```bash
+   pip install numpy
+   pip install os
+   sudo apt-get install python3-tk
+   ...
+   ```
