@@ -3,27 +3,6 @@
 <br /> Authors：Yiqing Liu, Hufei Duan
 <br /> Date：20220202
 
-# Usage
-【Hotkey instructions】
-<br /> &emsp;**a**：Last page
-<br /> &emsp;**d**：Next page
-<br /> &emsp;**ctrl+z**：Unmake
-<br /> &emsp;**↑**：Randomly generate 10 positive boxes，and CSV file is synchronized.
-<br /> &emsp;**↓**：Randomly generate 10 negtive boxes，and CSV file is synchronized.
-<br /> &emsp;**Left mouse button**：label as positive or reverse the label (While clicking the unlabeled position, "label as positive" is performed. While clicking the labeled position, the positive label will be reversed into a negtive label.)
-<br /> &emsp;**Right mouse button**：label as negtive
-<br /> &emsp;**Middle mouse button**：change the label
-<br />          &emsp;&emsp;(1) Click inside the labeled box. This labeled box and its corresponding annotation in CSV file will be removed.
- <br />         &emsp;&emsp;(2) After executing step (1)，click an unlabeled box (target box). Click on the left side of the center line of the non marking box, the label will be positive. Click on the right side of the center line of the non marking box, it will be negtive.
-
-【Macro definitions in the program】
-<br /> &emsp;**NUM**：Set the maximum number of boxes that can be marked on each image.
-<br /> &emsp;**img_num**：The No. img_num image will be shown first while opening the software.
-<br /> &emsp;**grid_or_not**：set grids or not（1 means set，0 means unset.）
-
-【components】
-<br /> &emsp;**Image list**：Select one image and click "Confirm". That image will be shown for your annotating.
-
 
 # Install
 1. Download PSeger-LabelMe program.
@@ -63,5 +42,24 @@ D:
 
 
 
+# Usage
+## Hotkey instructions
+<br /> &emsp;**a**：Last page
+<br /> &emsp;**d**：Next page
+<br /> &emsp;**ctrl+z**：Unmake
+<br /> &emsp;**↑**：Randomly generate 10 positive boxes，and CSV file is synchronized.
+<br /> &emsp;**↓**：Randomly generate 10 negtive boxes，and CSV file is synchronized.
+<br /> &emsp;**Left mouse button**：label as positive or reverse the label (While clicking the unlabeled position, "label as positive" is performed. While clicking the labeled position, the positive label will be reversed into a negtive label.)
+<br /> &emsp;**Right mouse button**：label as negtive
+<br /> &emsp;**Middle mouse button**：change the label
+<br />          &emsp;&emsp;(1) Click inside the labeled box. This labeled box and its corresponding annotation in CSV file will be removed.
+ <br />         &emsp;&emsp;(2) After executing step (1)，click an unlabeled box (target box). Click on the left side of the center line of the non marking box, the label will be positive. Click on the right side of the center line of the non marking box, it will be negtive.
 
+【Macro definitions in the program】
+<br /> &emsp;**NUM**：Set the maximum number of boxes that can be marked on each image.
+<br /> &emsp;**img_num**：The No. img_num image will be shown first while opening the software.
+<br /> &emsp;**grid_or_not**：set grids or not（1 means set，0 means unset.）
+
+【components】
+<br /> &emsp;**Image list**：Select one image and click "Confirm". That image will be shown for your annotating.
 
