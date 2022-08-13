@@ -1,5 +1,5 @@
 # PSeger-LabelMe
-[Sensors 2022] This is an efficient annotation tool for image segmentation described in our paper.
+[Sensors 2022] This is an efficient annotation tool for image segmentation described in our paper [link](https://www.mdpi.com/1424-8220/22/16/6053#cite).
 <br /> Authors：Yiqing Liu, Hufei Duan
 <br /> Date：20220202
 
