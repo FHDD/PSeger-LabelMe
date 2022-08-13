@@ -67,4 +67,21 @@ D:\
 
 
 # Citation
-Updating.
+If you found PSeger-LabelMe helpful for your research, please cite our paper:
+
+```bash
+@Article{s22166053,
+AUTHOR = {Liu, Yiqing and He, Qiming and Duan, Hufei and Shi, Huijuan and Han, Anjia and He, Yonghong},
+TITLE = {Using Sparse Patch Annotation for Tumor Segmentation in Histopathological Images},
+JOURNAL = {Sensors},
+VOLUME = {22},
+YEAR = {2022},
+NUMBER = {16},
+ARTICLE-NUMBER = {6053},
+URL = {https://www.mdpi.com/1424-8220/22/16/6053},
+ISSN = {1424-8220},
+ABSTRACT = {Tumor segmentation is a fundamental task in histopathological image analysis. Creating accurate pixel-wise annotations for such segmentation tasks in a fully-supervised training framework requires significant effort. To reduce the burden of manual annotation, we propose a novel weakly supervised segmentation framework based on sparse patch annotation, i.e., only small portions of patches in an image are labeled as &lsquo;tumor&rsquo; or &lsquo;normal&rsquo;. The framework consists of a patch-wise segmentation model called PSeger, and an innovative semi-supervised algorithm. PSeger has two branches for patch classification and image classification, respectively. This two-branch structure enables the model to learn more general features and thus reduce the risk of overfitting when learning sparsely annotated data. We incorporate the idea of consistency learning and self-training into the semi-supervised training strategy to take advantage of the unlabeled images. Trained on the BCSS dataset with only 25% of the images labeled (five patches for each labeled image), our proposed method achieved competitive performance compared to the fully supervised pixel-wise segmentation models. Experiments demonstrate that the proposed solution has the potential to reduce the burden of labeling histopathological images.},
+DOI = {10.3390/s22166053}
+}
+```
+
